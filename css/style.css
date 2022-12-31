@@ -71,5 +71,83 @@ body {
     color: #555;
 }
 
+/* navigation */
+.navigation {
+    margin-left: 8rem;
+    position: fixed;
+    width: 30rem;
+    height: 100%;
+    background: url(../img/sun-raise.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-heading {
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    text-align: center;
+}
+
+.navigation-search {
+    position: relative;
+}
+
+.navigation-search-input {
+    width: 20rem;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, .1);
+    font-family: 'Josefin sans', sans-serif;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    outline: none;
+    border: 0.1rem solid #e1894b;
+    border-radius: 10rem;
+    color: #4a3400;
+    transition: background-color 0.3s;
+}
+
+.navigation-search-input:focus {
+    background-color: #a3a78f;
+}
+
+.navigation-search-btn {
+    border: none;    
+    background: transparent;
+    color: #58420f;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 0.8rem;
+    right: 4rem;
+    cursor: pointer;
+}
+
+.navigation-search-btn {
+    outline: none;
+}
+
+.navigation-list {
+    list-style: none;
+    padding: 0;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation-link {
+    color: #2f086a;
+    font-size: 1.7rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+/* end of navigation */
 /* end of sidebar */
 /* end of navbar */
