@@ -222,6 +222,74 @@ body {
     margin-left: 8rem;
     height: 100vh;
     background: linear-gradient(to top, rgb(0, 0, 0, .6), rgb(0, 0, 0, .5)), url(/img/header-1.jpg) center no-repeat;
+    background-size: cover;
+}
+
+.brand {
+    display: flex;
+    cursor: pointer;
+}
+
+.brand-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 2.7rem;
+    font-weight: 400;
+    color: #12d2f3;
+    letter-spacing: 0.2rem;
+}
+
+.banner {
+    color: #ddd;
+    height: 55rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 400;
+    margin-bottom: 0;
+    animation: anim 2s;
+}
+
+.banner-paragraph {
+    font-size: 2rem;
+    font-weight: 300;
+    animation: anim 1.5s 0.5s backwards;
+}
+
+.banner-button {
+    width: 15rem;
+    padding: 1rem 1.5rem;
+    font-size: 2rem;
+    color: #333;
+    letter-spacing: .2rem;
+    border: none;
+    outline: none;
+    border-radius: 10rem;
+    background: linear-gradient(to right, #63e8ff, #afe6ef);
+    cursor: pointer;
+    animation: anim 1s 1s backwards;
+}
+
+.banner-button:hover {
+    background: linear-gradient(to left, #63e8ff, #afe6ef);
+}
+
+.banner-button:active {
+    transform: translateY(0.2rem);
+}
+
+@keyframes anim {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 /* end of navigation */
 /* end of sidebar */
