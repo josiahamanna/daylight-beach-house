@@ -59,11 +59,11 @@ body {
 .social-link {
     font-size: 2rem;
     color: #777;
-    transition: color 2s;
+    transition: color .4s;
 }
 
 .social-link:hover {
-    color: #deaa86;
+    color: blue;
 }
 
 .year {
@@ -78,7 +78,7 @@ body {
     position: fixed;
     width: 30rem;
     height: 100%;
-    background: url(../img/sun-raise.jpg) center no-repeat;
+    background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)), url(../img/nav-bg.jpg) center no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
@@ -93,6 +93,7 @@ body {
     font-weight: 300;
     letter-spacing: .2rem;
     text-align: center;
+    color: blue;
 }
 
 .navigation-search {
@@ -107,9 +108,9 @@ body {
     font-size: 1.5rem;
     letter-spacing: .1rem;
     outline: none;
-    border: 0.1rem solid #e1894b;
+    border: 0.1rem solid blue;
     border-radius: 10rem;
-    color: #4a3400;
+    color: blue;
     transition: background-color 0.3s;
 }
 
@@ -120,7 +121,7 @@ body {
 .navigation-search-btn {
     border: none;    
     background: transparent;
-    color: #58420f;
+    color: blue;
     font-size: 1.7rem;
     position: absolute;
     top: 0.8rem;
@@ -147,7 +148,7 @@ body {
 }
 
 .navigation-link {
-    color: #2f086a;
+    color: blue;
     font-size: 1.7rem;
     font-weight: 500;
     letter-spacing: 0.1rem;
@@ -160,7 +161,7 @@ body {
     content: "";
     width: 0rem;
     height: .1rem;
-    background-color: #6312dc;
+    background-color: blue;
     position: absolute;
     top: 1rem;
     left: -4rem;
@@ -171,7 +172,7 @@ body {
     content: "";
     width: 0rem;
     height: .1rem;
-    background-color: #6312dc;
+    background-color: blue;
     position: absolute;
     top: 1rem;
     right: -4rem;
@@ -179,7 +180,7 @@ body {
 }
 
 .navigation-link:hover {
-    color: #6312dc;
+    color: blue;
 }
 
 .navigation-link:hover:before, .navigation-link:hover:after {
@@ -234,7 +235,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 2.7rem;
     font-weight: 400;
-    color: #12d2f3;
+    color: rgb(162, 207, 246);
     letter-spacing: 0.2rem;
 }
 
@@ -316,14 +317,14 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4rem;
     font-weight: 300;
-    color: #555;
+    color: blue;
 }
 
 .sub-heading {
     font-size: 3.5rem;
     font-weight: 300;
     letter-spacing: .2rem;
-    color: #6312dc;
+    color: blue;
     text-align: center;
 }
 
@@ -341,9 +342,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: #6312dc;
+    color: blue;
     background-color: transparent;
-    border: .1rem solid #6312dc;
+    border: .1rem solid blue;
     outline: none;
     cursor: pointer;
 }
@@ -369,7 +370,7 @@ body {
     left: 50%;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .4);
     border-radius: .4rem;
-    border: .2rem solid #bbaad5;
+    border: .2rem solid blue;
 }
 
 .image-1 {
@@ -393,7 +394,7 @@ body {
 .common-header {
     padding: 5rem;
     text-align: center;
-    color: #6312dc;
+    color: blue;
 }
 
 .common-heading {
@@ -406,14 +407,14 @@ body {
     width: 9rem;
     height: 0.1rem;
     margin: 0 auto 1rem auto;
-    background-color: #6312dc;
+    background-color: blue;
 }
 
 .big-underline {
     width: 20rem;
     height: 0.1rem;
     margin: auto;
-    background-color: #6312dc;
+    background-color: blue;
 }
 /* end of common header */
 
@@ -468,9 +469,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: #6312dc;
+    color: blue;
     background-color: transparent;
-    border: .1rem solid #6312dc;
+    border: .1rem solid blue;
     border-radius: 10rem;
     outline: none;
     cursor: pointer;
@@ -486,8 +487,8 @@ body {
     margin: 4rem 0;
     background-color: transparent;
     text-transform: uppercase;
-    color: #6312dc;
-    border: .2rem solid #6312dc;
+    color: blue;
+    border: .2rem solid blue;
     outline: none;
     cursor: pointer;
     box-shadow: 0 1.5rem 6rem rgba(0, 0, 0, .2);
@@ -495,7 +496,7 @@ body {
 }
 
 .rooms-btn:hover {
-    background-color: #6312dc;
+    background-color: blue;
     color: #ddd;
 }
 /* end of rooms */
@@ -549,7 +550,7 @@ body {
 .customer-paragraph-1 {
     font-size: 1.2rem;
     font-style: italic;
-    color: #6312dc;
+    color: blue;
 }
 
 .customer-paragraph-2 {
@@ -567,13 +568,13 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1c1c1c;
-    padding: 4rem
+    padding: 4rem;
 }
 
 .footer-heading {
     font-size: 2.5rem;
     font-weight: 300;
-    color: goldenrod;
+    color: blue;
     margin: 1rem 0 3rem 0;
 }
 
@@ -609,5 +610,66 @@ body {
     font-size: 1.8rem;
     columns: #444;
     outline: none;
+}
+
+.footer-btn {
+    padding: 1rem;
+    background-color: blue;
+    color: #ddd;
+    border: none;
+}
+
+.gallery {
+    width: 30rem;
+}
+
+.gallery-images-wrapper {
+    width: 12rem;
+    margin: 0.4rem;
+    overflow: hidden;
+}
+
+.footer-image {
+    width: 100%;
+    height: 100%;
+    margin: .4rem;
+    transition: all 0.4s;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-image:hover {
+    transform: scale(1.4);
+}
+
+.creator-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 0 4rem;
+}
+
+.copyright-text {
+    font-size: 1.3rem;
+    color: #aaa;
+}
+
+.text-right {
+    font-size: 1.4rem;
+    color: #bbb;
+}
+
+.text-right i {
+    font-size: 1.5rem;
+    margin: .5rem;
+    color: tomato;
+}
+
+.text-right span {
+    color: goldenrod;
 }
 /* end of footer */
