@@ -673,3 +673,27 @@ body {
     color: goldenrod;
 }
 /* end of footer */
+
+/* media query */
+@media(max-width: 1120px) {
+    .customer-card-wrapper {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .customer-card:first-child {
+        margin-bottom: 3rem;
+    }
+
+    .main-part {
+        flex-direction: column;
+    }
+
+    .footer-list {
+        display: flex;
+    }
+
+    .footer-list-item {
+        margin-left: 3rem;
+    }
+}
