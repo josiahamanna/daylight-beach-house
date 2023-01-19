@@ -74,9 +74,9 @@ body {
 
 /* navigation */
 .navigation {
-    left: -22rem;
+    left: -32rem;
     position: fixed;
-    width: 30rem;
+    width: 40rem;
     height: 100%;
     background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)), url(../img/nav-bg.jpg) center no-repeat;
     background-size: cover;
@@ -85,6 +85,7 @@ body {
     justify-content: space-between;
     align-items: center;
     transition: .8s cubic-bezier(1, 0, 0, 1);
+    z-index: 5;
 }
 
 .navigation-heading {
@@ -101,11 +102,11 @@ body {
 }
 
 .navigation-search-input {
-    width: 20rem;
+    width: 30rem;
     padding: 1rem 2rem;
     background-color: rgba(0, 0, 0, .1);
     font-family: 'Josefin sans', sans-serif;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: .1rem;
     outline: none;
     border: 0.1rem solid #b85d1c;
@@ -250,20 +251,20 @@ body {
 
 .banner-heading {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 4rem;
+    font-size: 5rem;
     font-weight: 400;
     margin-bottom: 0;
     animation: anim 2s;
 }
 
 .banner-paragraph {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 300;
     animation: anim 1.5s 0.5s backwards;
 }
 
 .banner-button {
-    width: 15rem;
+    width: 20rem;
     padding: 1rem 1.5rem;
     font-size: 2rem;
     color: #333;
@@ -317,6 +318,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     font-size: 4rem;
     font-weight: 300;
+    text-transform: uppercase;
     color: #b85d1c;
 }
 
@@ -333,7 +335,7 @@ body {
     font-style: italic;
     font-weight: 300;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 5rem;
 }
 
 .about-us-btn {
@@ -523,7 +525,7 @@ body {
 
 .customer-card {
     background-color: #eee;
-    width: 50rem;
+    width: 60rem;
     display: flex;
 }
 
@@ -534,7 +536,6 @@ body {
 .customer-image {
     width: 20rem;
     margin-left: -1.3rem;
-    clip: rect(50px, 50px, 10px);
 }
 
 .customer-info {
@@ -695,5 +696,152 @@ body {
 
     .footer-list-item {
         margin-left: 3rem;
+    }
+}
+
+@media (max-width: 1130px) {
+    .about-us {
+        flex-direction: column;
+        margin-bottom: 20rem;
+    }
+
+    .about-us-content {
+        margin-bottom: 13rem;
+    }
+
+    .image {
+        width: 25rem;
+    }
+}
+
+@media (max-width: 900px) {
+    .banner {
+        text-align: center;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
+        font-size: 1.5rem;
+    }
+
+    .banner-button {
+        width: 15rem;
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 750px) {
+    .customer-card {
+        flex-direction: column;
+    }
+
+    .customer-image {
+        margin-left: 0;
+    }
+
+    .footer-list {
+        display: block;
+    }
+
+    .creator-part {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .copyright-text {
+        order: 1;
+    }
+}
+
+@media (max-width: 500px) {
+    .navigation {
+        width: 28rem
+    }
+
+    .navigation-search-input {
+        width: 20rem;
+    }
+
+    .banner {
+        height: 100%;
+        margin-top: -10rem;
+    }
+
+    .banner-heading {
+        font-size: 3rem;
+    }
+
+    .banner-paragraph {
+        font-size: 2rem;
+    }
+
+    .about-us {
+        padding-bottom: 15rem;
+    }
+
+    .about-us-heading {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+
+    .sub-heading {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .about-us-content {
+        padding: 5rem;
+    }
+
+    .image {
+        width: 13rem;
+    }
+
+    .common-heading {
+        font-size: 2rem;
+    }
+
+    .small-underline {
+        width: 5rem;
+    }
+
+    .big-underline {
+        width: 12rem;
+    }
+
+    .room-card-heading {
+        font-size: 1.5rem;
+    }
+
+    .room-card-price {
+        font-size: 2.5rem;
+        margin-bottom: 1.5rem;
+        text-align: left;
+    }
+
+    .room-card-btn {
+        width: 12rem;
+        margin: 1rem .5rem;
+        font-size: 1rem;
+    }
+
+    .customer-paragraph {
+        font-size: 1.4rem;
+        width: 80%;
+    }
+
+    .main-part {
+        padding: 2rem;
+    }
+
+    .footer-input {
+        width: 12rem;
+    }
+
+    .gallery-images-wrapper {
+        width: 9rem;
     }
 }
