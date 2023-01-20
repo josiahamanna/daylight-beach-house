@@ -59,7 +59,7 @@ body {
 .social-link {
     font-size: 2rem;
     color: #777;
-    transition: color .4s;
+    transition: color .3s;
 }
 
 .social-link:hover {
@@ -94,7 +94,7 @@ body {
     font-weight: 300;
     letter-spacing: .2rem;
     text-align: center;
-    color: #b85d1c;
+    color: #f5c000;
 }
 
 .navigation-search {
@@ -104,7 +104,7 @@ body {
 .navigation-search-input {
     width: 30rem;
     padding: 1rem 2rem;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 0, 0, .3);
     font-family: 'Josefin sans', sans-serif;
     font-size: 1.6rem;
     letter-spacing: .1rem;
@@ -116,7 +116,7 @@ body {
 }
 
 .navigation-search-input:focus {
-    background-color: #a3a78f;
+    background-color: rgba(0, 0, 0, .1);
 }
 
 .navigation-search-btn {
@@ -125,8 +125,8 @@ body {
     color: #b85d1c;
     font-size: 1.7rem;
     position: absolute;
-    top: 0.8rem;
-    right: 4rem;
+    top: 1rem;
+    right: 1rem;
     cursor: pointer;
 }
 
@@ -137,7 +137,7 @@ body {
 .navigation-list {
     list-style: none;
     padding: 0;
-    height: 20rem;
+    height: 28rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -432,7 +432,7 @@ body {
 }
 
 .room-card {
-    width: 50rem;
+    width: 60rem;
     margin: 5rem;
     background-color: #15141b;
     box-shadow: 0 3rem 6rem rgba(0, 0, 0, .3);
@@ -621,7 +621,7 @@ body {
 }
 
 .gallery {
-    width: 30rem;
+    width: 45rem;
 }
 
 .gallery-images-wrapper {
@@ -633,7 +633,7 @@ body {
 .footer-image {
     width: 100%;
     height: 100%;
-    margin: .4rem;
+    backface-visibility: hidden;
     transition: all 0.4s;
 }
 
@@ -644,6 +644,7 @@ body {
 
 .footer-image:hover {
     transform: scale(1.4);
+    opacity: .8;
 }
 
 .creator-part {
@@ -665,7 +666,7 @@ body {
 }
 
 .text-right i {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin: .5rem;
     color: tomato;
 }
